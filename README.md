@@ -1,35 +1,240 @@
-# Spotify-Dashboard-PowerBI
-Power BI Dashboard for Spotify Music Data
-________________________________________
+🎵 Spotify Dashboard – Power BI
+
+Power BI Dashboard built on Spotify Top 50 Music Data to analyze song, artist, and popularity trends.
+
 📌 Business Requirement
 
-Spotify stakeholders (music analysts, playlist managers, and marketing teams) need a consolidated dashboard to monitor song and artist performance across different dimensions.
-Based on the screens provided, the business requires:
-1.	Overview Page
-o	Track KPIs like Total Songs, Distinct Artists, Average Popularity, Avg Duration.
-o	Compare Explicit vs Non-Explicit Songs and see their share.
-o	Analyze Songs by Album Type (single, album, compilation).
-o	View Distinct Songs and Avg Popularity by Year.
-o	Trend analysis of Avg Popularity & Distinct Songs by Month.
-o	Highlight Top Songs & Top Artists by Popularity.
-3.	Artist Page
-o	Show Top Artists by Popularity.
-o	Compare Tracks per Album and Songs by Artist.
-o	Provide drill-down to artist-level data (songs, release date, avg popularity, avg position, duration).
-o	Support identifying artists with consistent hits and #1 positions.
-5.	Songs Page
-o	Rank Top Songs by Popularity.
-o	Show Tracks per Song (Album/Single distribution).
-o	Compare Songs by Song Count.
-o	Provide detailed table with song name, release date, distinct artists, avg popularity, position, duration per year.
-________________________________________
+Spotify stakeholders—music analysts, playlist managers, and marketing teams—need a consolidated dashboard to monitor song and artist performance across multiple dimensions.
+
+Based on the provided screens, the business requirements are outlined below.
+
+1️⃣ Overview Page
+
+Track key KPIs:
+
+Total Songs
+
+Distinct Artists
+
+Average Popularity
+
+Average Duration
+
+Compare Explicit vs Non-Explicit Songs and their performance share.
+
+Analyze songs by Album Type:
+
+Single
+
+Album
+
+Compilation
+
+View Distinct Songs and Average Popularity by year.
+
+Perform trend analysis:
+
+Average Popularity by Month
+
+Distinct Songs by Month
+
+Highlight:
+
+Top Songs by Popularity
+
+Top Artists by Popularity
+
+2️⃣ Artist Page
+
+Display Top Artists by Popularity.
+
+Compare:
+
+Tracks per Album
+
+Songs by Artist
+
+Provide drill-down capabilities to artist-level details, including:
+
+Song name
+
+Release date
+
+Average popularity
+
+Average chart position
+
+Duration
+
+Support identification of:
+
+Artists with consistent hits
+
+Artists achieving #1 positions
+
+3️⃣ Songs Page
+
+Rank Top Songs by Popularity.
+
+Show Tracks per Song (Album vs Single distribution).
+
+Compare songs by Song Count.
+
+Provide a detailed table with:
+
+Song name
+
+Release year
+
+Distinct artists
+
+Average popularity
+
+Chart position
+
+Duration
+
 📌 Problem Statement
 
-Currently, Spotify’s raw “Top 50” dataset is limited to lists and rankings, making it difficult for stakeholders to see patterns and take insights quickly.
-From the screens, the key problems solved are:
-•	No clear KPI monitoring → Dashboard provides quick summary of total songs, artists, popularity, duration, etc.
-•	Lack of explicit vs non-explicit analysis → Users can compare how explicit songs perform vs non-explicit.
-•	Difficulty in tracking song/album distribution → Visuals show breakdown by album type and release year.
-•	Trend visibility missing → Popularity and distinct songs trends are shown over time (monthly & yearly).
-•	Artist vs Song level insights not connected → Drill-down pages for Artists and Songs connect overview insights to detailed records.
-•	Decision-making gaps → Marketing and curation teams can now identify which artists/songs to promote, trends to follow, and which content resonates with audiences.
+Spotify’s raw Top 50 dataset is primarily list- and ranking-based, making it difficult for stakeholders to quickly identify patterns and extract actionable insights.
+
+Key Problems Addressed
+
+No clear KPI monitoring
+→ Dashboard delivers a quick snapshot of total songs, artists, popularity, and duration.
+
+Lack of Explicit vs Non-Explicit analysis
+→ Enables comparison of performance between explicit and non-explicit songs.
+
+Difficulty tracking song and album distribution
+→ Visual breakdowns by album type and release year.
+
+Missing trend visibility
+→ Monthly and yearly trends for popularity and distinct songs.
+
+Disconnected artist and song insights
+→ Drill-down pages link high-level insights to detailed artist and song data.
+
+Decision-making gaps
+→ Marketing and curation teams can identify:
+
+High-performing artists and songs
+
+Emerging trends
+
+Content that resonates most with audiences
+
+If you want, I can also:
+
+Make this ATS-friendly for resume/project descriptions
+
+Shorten it for a GitHub README summary
+
+Rewrite it as resume bullet points for a Data Analyst role
+
+give it for GITHUB read me file
+
+Here is a clean, concise, and professional GitHub README version, optimized for clarity and readability (not verbose, not resume-style):
+
+🎵 Spotify Dashboard – Power BI
+
+An interactive Power BI dashboard built using Spotify Top 50 music data to analyze song popularity, artist performance, and release trends across multiple dimensions.
+
+📌 Project Objective
+
+The goal of this project is to provide Spotify stakeholders—such as music analysts, playlist curators, and marketing teams—with a centralized dashboard to quickly monitor performance, identify trends, and support data-driven decision-making.
+
+📊 Dashboard Pages
+🔹 Overview Page
+
+Key KPIs: Total Songs, Distinct Artists, Average Popularity, Average Duration
+
+Comparison of Explicit vs Non-Explicit songs
+
+Distribution of songs by Album Type (Single, Album, Compilation)
+
+Yearly analysis of distinct songs and average popularity
+
+Monthly trend analysis for popularity and song count
+
+Highlights of Top Songs and Top Artists by popularity
+
+🔹 Artist Analysis Page
+
+Ranking of Top Artists by Popularity
+
+Comparison of:
+
+Tracks per album
+
+Songs per artist
+
+Drill-down insights at the artist level, including:
+
+Song details
+
+Release date
+
+Average popularity
+
+Chart position
+
+Duration
+
+Identification of artists with consistent hits and #1 positions
+
+🔹 Song Analysis Page
+
+Ranking of Top Songs by Popularity
+
+Distribution of songs across Albums vs Singles
+
+Song comparison based on song count
+
+Detailed song-level table with:
+
+Song name
+
+Release year
+
+Distinct artists
+
+Average popularity
+
+Chart position
+
+Duration
+
+🚩 Problem Addressed
+
+Spotify’s raw Top 50 dataset is largely list-based, making it difficult to identify patterns, trends, and actionable insights.
+
+This dashboard solves:
+
+Lack of KPI visibility
+
+No clear comparison between explicit and non-explicit content
+
+Limited insight into album and release distributions
+
+Missing time-based trend analysis
+
+Disconnected artist-level and song-level insights
+
+✅ Key Outcomes
+
+Faster insight generation through consolidated KPIs
+
+Clear visibility into music trends and audience preferences
+
+Improved decision-making for playlist curation and marketing strategies
+
+Seamless drill-down from overview to detailed artist and song data
+
+🛠 Tools Used
+
+Power BI
+
+DAX
+
+Spotify Top 50 Dataset
