@@ -1,4 +1,4 @@
-🎵 Spotify Dashboard – Power BI
+# 🎵 Spotify Dashboard – Power BI
 
 Power BI Dashboard built on Spotify Top 50 Music Data to analyze song, artist, and popularity trends.
 
